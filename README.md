@@ -80,13 +80,15 @@ Ahora ya podrás ejecutar consultas sobre la tabla.
 Y para finalizar la conexión se introducirá lo siguiente:![image](https://user-images.githubusercontent.com/84397670/128446018-1528cfac-1ac2-437e-8a76-61bf3d8a8b35.png)
 
 
+
 **4 . CONCLUSIONES**
 
-Mediante la realización de este trabajo se estudio la herramienta de programación Node-RED, de los sistemas de gestión de bases de datos, y su importancia y utilidad a la hora de almacenar, clasificar y manejar información, de cualquier tipo.
+•	Mediante la realización de este trabajo se estudio la herramienta de programación Node-RED, de los sistemas de gestión de bases de datos, y su importancia y utilidad a la hora de almacenar, clasificar y manejar información, de cualquier tipo.
 
-MySQL ha sido un gestor de bases de datos muy útil desde que fue creado, y con el tiempo, nuevas funciones se le añadieron, expandiéndolo y volviéndolo más útil, y convirtiéndose así en uno de los gestores de bases de datos más utilizados a nivel mundial, junto a Oracle.
+•	MySQL ha sido un gestor de bases de datos muy útil desde que fue creado, y con el tiempo, nuevas funciones se le añadieron, expandiéndolo y volviéndolo más útil, y convirtiéndose así en uno de los gestores de bases de datos más utilizados a nivel mundial, junto a Oracle.
 
-SQL significó un gran avance para este fin, almacenar y clasificar información, además de que, gracias a su aparición, hoy en día existe una gran variedad de SGBD basados en el lenguaje SQL, como MySQL, PostgreSQL, Oracle, entre otros. Desde su estandarización, casi todos los programas que trabajan con bases de datos, utilizan este lenguaje, con diferentes variaciones y funciones, según el tipo de software y su objetivo.
+•	SQL significó un gran avance para este fin, almacenar y clasificar información, además de que, gracias a su aparición, hoy en día existe una gran variedad de SGBD basados en el lenguaje SQL, como MySQL, PostgreSQL, Oracle, entre otros. Desde su estandarización, casi todos los programas que trabajan con bases de datos, utilizan este lenguaje, con diferentes variaciones y funciones, según el tipo de software y su objetivo.
+
 
 
 **4 . BIBLIOGRAFIA**
