@@ -77,7 +77,8 @@ Inserta algunos datos de ejemplo en la tabla para verificar que todo funcione co
 *![image](https://user-images.githubusercontent.com/84397670/128445963-87bb9942-798d-4caa-a8cc-4fa3cdccc2ba.png)
 Ahora ya podrás ejecutar consultas sobre la tabla.
 
-**=> Base de Datos Mysql y Node-Red**
+**Base de Datos Mysql y Node-Red**
+
 Una vez ya entendido como funciona MySql procederemos a trabajar con None-Red en un ejemplo que nos permita insertar y llamar valores a una base de datos. 
 
 1. El primer paso tras abrir nuestro archivo será el de jalar el icono de MySql al centro ya que lo usaremos directamente facilitando el trabajo con ello.
