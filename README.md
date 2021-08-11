@@ -77,9 +77,42 @@ Inserta algunos datos de ejemplo en la tabla para verificar que todo funcione co
 *![image](https://user-images.githubusercontent.com/84397670/128445963-87bb9942-798d-4caa-a8cc-4fa3cdccc2ba.png)
 Ahora ya podrás ejecutar consultas sobre la tabla.
 
-Y para finalizar la conexión se introducirá lo siguiente:![image](https://user-images.githubusercontent.com/84397670/128446018-1528cfac-1ac2-437e-8a76-61bf3d8a8b35.png)
+**=> Base de Datos Mysql y Node-Red**
+Una vez ya entendido como funciona MySql procederemos a trabajar con None-Red en un ejemplo que nos permita insertar y llamar valores a una base de datos. 
 
+1. El primer paso tras abrir nuestro archivo será el de jalar el icono de MySql al centro ya que lo usaremos directamente facilitando el trabajo con ello.
 
+Procederemos a abrir la configuración de nuestra base de datos donde introduciremos nuestro HOST, el usuario, la contraseña.
+![image](https://user-images.githubusercontent.com/84397670/129117744-6217c90c-d9a3-41ab-a304-4bc8be7c84cd.png)
+
+2. Una vez introducido todos los datos necesarios procederemos a cargar nuestra DataBase (en este ejemplo nuestra base de datos se llama test). Colocamos el mismo nombre que nuestra base de datos y damos click en Add. 
+![image](https://user-images.githubusercontent.com/84397670/129117798-42772e68-2222-43e5-99bb-32db4565b825.png)
+
+3.	Volvemos a nuestra ventana principal donde añadiremos un Insert (timestamp), una Función (Function) y un Debug (msg payload) enlazándolo a nuestro archivo MySql (test).
+![image](https://user-images.githubusercontent.com/84397670/129117819-64b1cefa-245b-4e2b-ba2a-968b701d5978.png)
+
+4.	Ahora configuraremos el componente Payload ya que este estará encargado de mostrar la salida del resultado de ejecutar nuestro ejemplo. Configuraremos el Payload dando un click sobre el componente y transformándolo a un String (cadena de caracteres, palabras, ristra de caracteres o frase) Ejecutar sin tocar en la parte de Topic.
+![image](https://user-images.githubusercontent.com/84397670/129117837-9bcf94b8-881b-4a6d-913e-b65d378a36e2.png)
+
+5.	Ahora procederemos a configurar Function. Damos un click sobre el e introduciremos el siguiente código para modificar su Topic, este código nos permitirá llamar los valores de la tabla Prueba2.
+![image](https://user-images.githubusercontent.com/84397670/129117864-0f406df5-652a-455a-b66e-d2dee51cdff6.png)
+
+6.	Una vez terminado las configuraciones daremos click en la parte de Deploy donde se compilará todo lo trabajado hasta el momento. Para verificar que nos suelta un resultado nos iremos a la ventana Debug y ejecutamos el ejemplo.
+![image](https://user-images.githubusercontent.com/84397670/129117884-b2aa1994-aff6-4b2c-b118-b85caf8d0cdd.png)
+
+7.	Como al momento de ejecutar no nos salta ningún error significa que funcionó correctamente y nos debe haber aumentado otro dato a nuestra base de datos Prueba2 pasando de 25 a 26. 
+![image](https://user-images.githubusercontent.com/84397670/129117905-9d8bf46d-8272-4638-adda-b8d26a726b69.png)
+
+8.	Una vez ya comprobado que podemos insertar nuevos datos dentro de nuestra base de datos vamos a leer esos datos por lo que para ello deberemos hacer lo siguiente. Volvemos a nuestro componente Function e insertaremos el siguiente código seguido del nombre del archivo a leer por lo que nos queda igual a:
+![image](https://user-images.githubusercontent.com/84397670/129117925-4928bace-42d7-4144-852d-0eb874761f2e.png)
+
+9.	Volvemos a compilar las nuevas configuraciones dentro de nuestra red y ejecutamos para ver si funciona correctamente. 
+![image](https://user-images.githubusercontent.com/84397670/129117951-4a0819ac-4cc1-41fc-bd6f-a3e4d277d8ea.png)
+Los datos se leerán como un tipo de dato Array ya que son un conjunto de 27 elementos, donde cada objeto guarda el id del usuario dentro de la base de datos y sus elementos que en este ejemplo son 3 siendo v1, v2 y v3 los que leerá al ejecutarse.
+![image](https://user-images.githubusercontent.com/84397670/129117976-69142814-5ff2-4f90-b599-6ccdd6edd00b.png)
+
+10. Y para finalizar la conexión se introducirá lo siguiente:![image](https://user-images.githubusercontent.com/84397670/128446018-1528cfac-1ac2-437e-8a76-61bf3d8a8b35.png)
+![image](https://user-images.githubusercontent.com/84397670/129117704-05d68cf5-6933-45aa-932d-ea2b0f313df7.png)
 
 **4 . CONCLUSIONES**
 
@@ -100,3 +133,6 @@ Y para finalizar la conexión se introducirá lo siguiente:![image](https://user
 3 .	Cómo programar NodeMCU con el IDE de Arduino, 2018. Programar fácil.com. [Online]. Disponible en: https://programarfacil.com/esp8266/como-programar-nodemcuide arduino/.
 
 4 .	Node-RED. En Wikipedia. Recuperado el 5 de agosto de 2021 de: https://en.wikipedia.org/wiki/Node-RED.
+
+**5 . ANEXO**
+[ProyectoEjemploP-MySql-BasedeDatos_FloresCastillo_NicolásFabian.zip](https://github.com/FloresNicolas/Tarea-Extra2/files/6971967/ProyectoEjemploP-MySql-BasedeDatos_FloresCastillo_NicolasFabian.zip)
