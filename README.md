@@ -83,7 +83,9 @@ Una vez ya entendido como funciona MySql procederemos a trabajar con None-Red en
 
 1. El primer paso tras abrir nuestro archivo será el de jalar el icono de MySql al centro ya que lo usaremos directamente facilitando el trabajo con ello.
 
+![image](https://user-images.githubusercontent.com/84397670/129117704-05d68cf5-6933-45aa-932d-ea2b0f313df7.png)
 Procederemos a abrir la configuración de nuestra base de datos donde introduciremos nuestro HOST, el usuario, la contraseña.
+
 ![image](https://user-images.githubusercontent.com/84397670/129117744-6217c90c-d9a3-41ab-a304-4bc8be7c84cd.png)
 
 2. Una vez introducido todos los datos necesarios procederemos a cargar nuestra DataBase (en este ejemplo nuestra base de datos se llama test). Colocamos el mismo nombre que nuestra base de datos y damos click en Add. 
@@ -112,8 +114,9 @@ Procederemos a abrir la configuración de nuestra base de datos donde introducir
 Los datos se leerán como un tipo de dato Array ya que son un conjunto de 27 elementos, donde cada objeto guarda el id del usuario dentro de la base de datos y sus elementos que en este ejemplo son 3 siendo v1, v2 y v3 los que leerá al ejecutarse.
 ![image](https://user-images.githubusercontent.com/84397670/129117976-69142814-5ff2-4f90-b599-6ccdd6edd00b.png)
 
-10. Y para finalizar la conexión se introducirá lo siguiente:![image](https://user-images.githubusercontent.com/84397670/128446018-1528cfac-1ac2-437e-8a76-61bf3d8a8b35.png)
-![image](https://user-images.githubusercontent.com/84397670/129117704-05d68cf5-6933-45aa-932d-ea2b0f313df7.png)
+10. Y para finalizar la conexión se introducirá lo siguiente:
+![image](https://user-images.githubusercontent.com/84397670/128446018-1528cfac-1ac2-437e-8a76-61bf3d8a8b35.png)
+
 
 **4 . CONCLUSIONES**
 
