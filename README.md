@@ -141,4 +141,4 @@ Los datos se leerán como un tipo de dato Array ya que son un conjunto de 27 ele
 **5 . ANEXO**
 [ProyectoEjemploP-MySql-Base.de.Datos_FloresCastillo_NicolásFabian.zip](https://github.com/FloresNicolas/Tarea-Extra2/files/6971974/ProyectoEjemploP-MySql-Base.de.Datos_FloresCastillo_NicolasFabian.zip)
 
-Video: 
+Video: https://www.youtube.com/watch?v=y8-WhQUbyKY
