@@ -130,13 +130,15 @@ Los datos se leerán como un tipo de dato Array ya que son un conjunto de 27 ele
 
 **4 . BIBLIOGRAFIA**
 
-1 . MySQL. En Wikipedia. Recuperado el 5 de agosto de 2021 de: https://es.wikipedia.org/wiki/MySQL.
+1_ MySQL. En Wikipedia. Recuperado el 5 de agosto de 2021 de: https://es.wikipedia.org/wiki/MySQL.
 
-2 .	Raspberry Pi 3 Modelo B, 2021. Raspberry Pi. [Online]. Disponible en: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/.
+2_	Raspberry Pi 3 Modelo B, 2021. Raspberry Pi. [Online]. Disponible en: https://www.raspberrypi.org/products/raspberry-pi-3-model-b/.
 
-3 .	Cómo programar NodeMCU con el IDE de Arduino, 2018. Programar fácil.com. [Online]. Disponible en: https://programarfacil.com/esp8266/como-programar-nodemcuide arduino/.
+3_	Cómo programar NodeMCU con el IDE de Arduino, 2018. Programar fácil.com. [Online]. Disponible en: https://programarfacil.com/esp8266/como-programar-nodemcuide arduino/.
 
-4 .	Node-RED. En Wikipedia. Recuperado el 5 de agosto de 2021 de: https://en.wikipedia.org/wiki/Node-RED.
+4_	Node-RED. En Wikipedia. Recuperado el 5 de agosto de 2021 de: https://en.wikipedia.org/wiki/Node-RED.
 
 **5 . ANEXO**
-[ProyectoEjemploP-MySql-BasedeDatos_FloresCastillo_NicolásFabian.zip](https://github.com/FloresNicolas/Tarea-Extra2/files/6971967/ProyectoEjemploP-MySql-BasedeDatos_FloresCastillo_NicolasFabian.zip)
+[ProyectoEjemploP-MySql-Base.de.Datos_FloresCastillo_NicolásFabian.zip](https://github.com/FloresNicolas/Tarea-Extra2/files/6971974/ProyectoEjemploP-MySql-Base.de.Datos_FloresCastillo_NicolasFabian.zip)
+
+Video: 
